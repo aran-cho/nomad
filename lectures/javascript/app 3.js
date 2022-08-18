@@ -28,6 +28,15 @@
 // console.log(title);
 
 //3-7
+const h1 = document.querySelector('div.hello:first-child h1');
+
+function handleTitlClick(){
+    h1.classList.toggle('clicked');
+    // toggle => classList에 clicked 가 있다면 제거
+    // 없다면 추가(토큰이 존재하면 제거 존재하지않으면 추가)
+}
+
+h1.handleTitlClick('click', handleTitlClick);
 
 
 
