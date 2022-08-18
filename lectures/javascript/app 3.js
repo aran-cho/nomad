@@ -24,9 +24,10 @@
 //모든 element 호출 가능
 
 
-const title = document.querySelectorAll(".hello:first-child");
-console.log(title);
+// const title = document.querySelectorAll(".hello:first-child");
+// console.log(title);
 
+//3-7
 
 
 
